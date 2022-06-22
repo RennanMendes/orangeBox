@@ -1,40 +1,40 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    background:rgb(202, 202, 202);
+body {
+    background: rgb(202, 202, 202);
     font-size: 'Arial', Times, serif;
     color: black;
 }
 
-.bold{
+.bold {
     font-weight: 700;
 }
 
-header nav{
+header nav {
     background-color: #e79f1d;
-    height:50px;
+    height: 50px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-header nav a{
+header nav a {
     color: #fff;
     margin-right: 15px;
     font-size: 15px;
     text-decoration: none;
 }
 
-header nav a:hover{
+header nav a:hover {
     color: #fff;
 
 }
 
-.nav-bar{
+.nav-bar {
     background-color: #7d73b2;
     display: flex;
     justify-content: center;
@@ -42,7 +42,7 @@ header nav a:hover{
     color: white;
 }
 
-.icon{
+.icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,16 +50,16 @@ header nav a:hover{
     color: white;
 }
 
-.btn-search:hover{
+.btn-search:hover {
     color: white;
     background-color: #7d73b2;
 }
 
-input{
+input {
     text-align: left;
 }
 
-.btn-search{
+.btn-search {
     position: absolute !important;
     margin-left: -17%;
     background-color: #7d73b2;
@@ -71,27 +71,27 @@ input{
 
 }
 
-.card{
+.card {
     width: 250px;
     height: 250px;
     border: 0 !important;
 
 }
 
-.card img{
+.card img {
     width: 100px;
     height: 100px;
 }
 
-.background{
+.background {
 
     background-color: white;
     padding: 0%;
     margin: 0%;
 }
 
-.accordion-item{
-    background:rgb(236, 236, 236);
+.accordion-item {
+    background: rgb(236, 236, 236);
     border: 10px;
     margin-top: 10px;
 }
@@ -107,6 +107,27 @@ input{
     background-size: var(--bs-accordion-btn-icon-width);
     transition: var(--bs-accordion-btn-icon-transition);
 }
+
 .accordion-button::after {
-display: none;
+    display: none;
+}
+
+.item-plano h3::after {
+    content: "";
+    background-color: #122a57;
+    width: 100%;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.rodape ul li {
+    list-style: none;
+}
+
+
+hr.style-four {
+    border: 5px solid #4b3b9b;
+    box-shadow: inset 0 12px 12px -12px #4b3b9b;
+    border-radius: 5px;
 }
