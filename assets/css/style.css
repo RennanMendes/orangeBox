@@ -55,8 +55,10 @@ header nav a:hover {
     background-color: #7d73b2;
 }
 
-input {
+input[type="search"] {
+    
     text-align: left;
+    word-spacing: -3.5px;
 }
 
 .btn-search {
@@ -71,14 +73,14 @@ input {
 
 }
 
-.card {
+.cards {
     width: 250px;
     height: 250px;
     border: 0 !important;
 
 }
 
-.card img {
+.cards img {
     width: 100px;
     height: 100px;
 }
@@ -127,7 +129,8 @@ input {
 
 
 hr.style-four {
-    border: 5px solid #4b3b9b;
-    box-shadow: inset 0 12px 12px -12px #4b3b9b;
+    border: 5px solid #2b00ff;
+    width: 150px;
+    box-shadow: inset 0 12px 12px -12px #2600e6;
     border-radius: 5px;
 }
